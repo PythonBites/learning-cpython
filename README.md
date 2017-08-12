@@ -1,7 +1,8 @@
 Learning CPython
 ================
 
-These are various minimal examples of using the CPython API for extending and
-embedding Python.
+This project contains various minimal examples of extending and embedding Python
+3.x in C++. I wrote these examples while learning the CPython API, and decided
+to upload them to github in the hope that it is useful to others.
 
-This code is dedicated to the public domain.
+All code and documentation is dedicated to the public domain.
