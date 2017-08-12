@@ -45,8 +45,7 @@ static struct PyModuleDef MyModule =
 
 // Define module's initialization function.
 // The name of this function must be PyInit_<modulename>.
-PyMODINIT_FUNC
-PyInit_MyModule(void)
+PyMODINIT_FUNC PyInit_MyModule(void)
 {
     return PyModule_Create(&MyModule);
 }
