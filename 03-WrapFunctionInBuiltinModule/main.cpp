@@ -1,7 +1,7 @@
 #include <Python.h>
 
 // Define C++ function
-double square(double x)
+static double square(double x)
 {
     return x*x;
 }
